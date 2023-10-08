@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "Indoor Party",
+        "image": "https://i.ibb.co/8sQZPfB/pexels-tara-winstead-6479601.jpg",
+        "price": "$250",
+        "description": "Host your indoor party in our cozy venues. Perfect for all seasons and weather conditions.",
+        "button": "Book Indoor Party"
+    },
+    {
+        "id": 2,
+        "name": "Outdoor Party",
+        "image": "https://i.ibb.co/GCpp6LN/pexels-agung-pandit-wiguna-2788488.jpg",
+        "price": "$300",
+        "description": "Enjoy the great outdoors with our outdoor party packages. Fun under the sun!",
+        "button": "Book Outdoor Party"
+    },
+    {
+        "id": 3,
+        "name": "Surprise Party",
+        "image": "https://i.ibb.co/f0Ryg1D/pexels-laura-james-6102168.jpg",
+        "price": "$300",
+        "description": "Plan a surprise party that will leave your loved one in awe. A memorable celebration awaits!",
+        "button": "Book Surprise Party"
+    },
+    {
+        "id": 4,
+        "name": "Theme Party",
+        "image": "https://i.ibb.co/ky0dQ72/pexels-helena-lopes-10336824.jpg",
+        "price": "$350",
+        "description": "Create a unique and exciting theme party experience for your guests.",
+        "button": "Book Theme Party"
+    }, {
+        "id": 5,
+        "name": "Family Party",
+        "image": "https://i.ibb.co/zV3gnZ5/pexels-askar-abayev-5638732.jpg",
+        "price": "$400",
+        "description": "Celebrate family togetherness with our family party packages. Fun for all ages!",
+        "button": "Book Family Party"
+    }, {
+        "id": 6,
+        "name": "Event Party",
+        "image": "https://i.ibb.co/sm59qdv/pexels-sebastian-ervi-1763075.jpg",
+        "price": "$500",
+        "description": "Host corporate or special events in style with our event party services.",
+        "button": "Book Event Party"
+    }
+]
