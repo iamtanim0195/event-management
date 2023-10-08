@@ -4,7 +4,7 @@ import NavBer from "../components/Header/NavBer/NavBer"
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className="max-w-screen-lg mx-auto">
             <NavBer></NavBer>
             <Outlet></Outlet>
             <ToastContainer />
@@ -12,4 +12,4 @@ const MainLayout = () => {
     )
 }
 
-export default MainLayout
+export default MainLayout;
