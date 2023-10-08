@@ -29,7 +29,7 @@ const AboutUs = () => {
                         <div className="max-w-md">
                             <h1 className="text-5xl font-bold">Our Team</h1>
                             <p className="py-6">
-                                Behind every successful celebration is a team of dedicated and creative professionals. Our experienced event planners, decorators, entertainers, and coordinators work seamlessly to ensure that every detail of your child's special day is nothing short of perfect.
+                                Behind every successful celebration is a team of dedicated and creative professionals. Our experienced event planners, decorators, entertainers, and coordinators work seamlessly to ensure that every detail of your childs special day is nothing short of perfect.
 
                             </p>
                         </div>
