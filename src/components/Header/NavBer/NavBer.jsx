@@ -68,6 +68,34 @@ const Navbar = () => {
                                     Home
                                 </NavLink>
                             </li>
+                            {
+                                user && <>
+                                    <li>
+                                        <NavLink
+                                            to="/info"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                                            }
+                                        >
+                                            Your Information
+                                        </NavLink>
+                                    </li>
+                                </>
+                            }
+                            {
+                                user && <>
+                                    <li>
+                                        <NavLink
+                                            to="/dashboard"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                                            }
+                                        >
+                                            Dashboard
+                                        </NavLink>
+                                    </li>
+                                </>
+                            }
                             <li>
                                 <NavLink
                                     to="/login"

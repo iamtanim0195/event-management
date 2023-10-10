@@ -5,6 +5,8 @@ import EventDtails from "../components/EventDtails/EventDtails";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
 import PrivateRoute from "./privateRoute";
+import Info from "../Pages/Info/Info";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 const MyRoute = createBrowserRouter([
     {
@@ -20,6 +22,14 @@ const MyRoute = createBrowserRouter([
                 path:"/details/:id",
                 element: <PrivateRoute><EventDtails></EventDtails></PrivateRoute>,
                 loader: () => fetch('/data.json'),
+            },
+            {
+                path:"/info",
+                element: <PrivateRoute><Info></Info></PrivateRoute>,
+            },
+            {
+                path:"/dashboard",
+                element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
             },
             {
                 path:"/login",
