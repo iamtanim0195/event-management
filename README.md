@@ -70,3 +70,7 @@ Answer
 The correct answer is B: 2.
 
 Explanation: The forEach method iterates over each element in the nums array. In the callback function, the condition if (num) checks if the current element num is truthy (not equal to 0 in this case, as 0 is a falsy value in JavaScript). Only the elements 1, 2, and 3 are truthy, so the count variable is incremented for each of those values. Therefore, count ends up being 2, and the output is 2.
+
+
+# live link: https://652536a1ce4de51739e37960--relaxed-tiramisu-f30aac.netlify.app/
+code link:https://github.com/programming-hero-web-course-4/b8a9-event-management-iamtanim0195
