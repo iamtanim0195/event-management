@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
-import { ToastContainer } from "react-toastify"
 import NavBer from "../components/Header/NavBer/NavBer"
 import Footer from "../components/Footer/Footer"
+import { Toaster } from "react-hot-toast"
 
 const MainLayout = () => {
     return (
@@ -9,7 +9,7 @@ const MainLayout = () => {
             <NavBer></NavBer>
             <Outlet></Outlet>
             <Footer></Footer>
-            <ToastContainer />
+            <Toaster/>
         </div>
     )
 }
