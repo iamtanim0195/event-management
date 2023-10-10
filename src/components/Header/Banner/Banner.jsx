@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div >
+        <div data-aos="fade-up" >
             <div className="hero min-h-[85vh] bg-base-200 bg-[url('https://i.ibb.co/NV4F8pr/a-n-v-e-s-h-cx-KUnnwk-Wyk-unsplash.jpg')]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
 

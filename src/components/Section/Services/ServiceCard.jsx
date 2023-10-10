@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 const ServiceCard = ({ service }) => {
 
     const { id, image,price, name, description,} = service || {};
-
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className=" h-[30vh] relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <img

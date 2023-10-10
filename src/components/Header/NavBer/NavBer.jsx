@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
     return (
-        <div>
+        <div data-aos="fade-up">
             <nav>
                 <div className="navbar bg-base-100 ">
                     <div className="navbar-start mx-auto">
@@ -123,7 +123,7 @@ const Navbar = () => {
                             <span>{user.email}</span>
                             <div className="avatar">
                                 <div className="w-7 mr-2 rounded-full">
-                                    <img src={`${user.photoURL}`} />
+                                    <img src={`https://i.ibb.co/GsPJN0K/image.png`} />
                                 </div>
                             </div>
                             <button onClick={handleLogOut} className="btn btn-sm mr-2">Sign out</button>
