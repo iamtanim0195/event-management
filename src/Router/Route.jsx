@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import EventDtails from "../components/EventDtails/EventDtails";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
+import PrivateRoute from "./privateRoute";
 
 const MyRoute = createBrowserRouter([
     {
@@ -17,7 +18,7 @@ const MyRoute = createBrowserRouter([
             },
             {
                 path:"/details/:id",
-                element:<EventDtails></EventDtails>,
+                element: <PrivateRoute><EventDtails></EventDtails></PrivateRoute>,
                 loader: () => fetch('/data.json'),
             },
             {
